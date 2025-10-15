@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-key..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+        <nav>
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+      <p>FULL STACK WEB DEVELOPMENT</p>
+      <h1>Hi, I'm <span>Sakshi</span><br> from Medchal </h1>
+     </div>
+            </div>  
+        </div>
+
+   <!------------------------about------------------------>
+      <div id="About">
+        <div class="cntainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About Me</h1>
+                    <p>Hi I'm Sakshi from medchal, Telangana. I'm a passionate and curious individual with a strong interest in ['Full stack wed Development' it includs Html, Css, Sass, Bootstrap, Javascript, Jquery, TYPEscript, NODEjs].
+                        i enjoy learning new things, solving problems createvely, and collaborating with others to bring ideas to Life.
+                        
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>   
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FULL STACK WEB Development</span><br>Web Development</li>
+                            <li><span>PGDCA</span><br>Post Graduation Diploma in Computer Applicatoins </li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Customer care executive </li>
+                        </ul>
+                    </div> 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Bsc Science From KU WARANGAL</li>
+                            <li><span>2023</span><br>web Development From Acadamy Hyderabad</li>
+                            <li><span>2012</span><br>PGDCA FROM ADILABAD</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services-------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                   <i class="fa-solid fa-code"></i>
+                    <h2>FULL stack Web Development</h2>
+                    <p>
+                        End-to-end website development combining front-end and back-end expertise.
+
+                        RESTful APIs, authentication systems, and optimized performance.
+                    </p>
+                         <a href="#">Learn more</a>
+                </div>
+
+                 <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>PGDCA</h2>
+                    <p>Office Automation & Data Entry Services
+
+                            Service: Manage digital documentation, spreadsheets, and records.
+
+                                    Tools: MS Office, Google Workspace.
+
+                                    Clients: Businesses, hospitals, educational institutions.</p>
+                         <a href="#">learn more</a>
+                </div>
+                 <div>
+                     <i class="fa-solid fa-phone"></i>                               
+                        <h2>Customer Care Executive</h2>
+                     <p>Customer Support (Inbound & Outbound Calls)
+
+                        Handling customer queries, complaints, and feedback over phone, email, or chat.
+
+                        Providing accurate information about products or services.
+
+                        Ensuring timely resolution of customer issue</p>
+                         <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="Work-list">
+                <div class="Work">
+                    <img src="images/wk1.png" alt="">
+                    <div class="layer">
+                        <h3>Full stack Web Development</h3>
+                        <p>Web Develpment involves designing creating, creating, and maintaining Websites.
+                             It includes front-end(user interface), back-end(server and database), and deployment to make site funtional and user-friendly.</p>
+                            <a here= "#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="Work">
+                    <img src="images/wk3.png">
+                    <div class="layer">
+                        <h3>CCE</h3>
+                        <p>A Customer Care Executive serves as the first point of contact for customers, 
+                            addressing inquiries, resolving complaints, and ensuring satisfaction.
+                            helping build trust and long-term relationships with clients.</p>
+                            <a here= "#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="Work">
+                    <img src="images/wk2.png">
+                    <div class="layer">
+                        <h3>PGDCA</h3>
+                        <p>Office automation and data entry professionals streamline administrative tasks by using digital tools to manage records, schedules, and communications. They ensure accurate data input, maintain organized databases,
+                             and support efficient office workflows</p>
+                            <a here= "#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <a here="#" class="btn">See more</a>
+        </div>
+    
+    <!----------------contact------------------>
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sakshireddy105@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8247780430</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Sakshi CV.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                     <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                     <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ kavin. Made with <i class="fa-solid fa-heart"></i>by easy Tutorial</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link"); 
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            if (sidemenu) {
+                sidemenu.style.right = "0";
+            }
+        }
+
+        function closemenu() {
+            if (sidemenu) {
+                sidemenu.style.right = "-200px";
+            }
+        }
+
+       
+        window.openmenu = openmenu;
+        window.closemenu = closemenu;
+    });
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzgzeKEc0AviaRb03eFoJmK4uzD5oZ3P6hy8UzI78WgPvCvtkYZ94RT-MnQKLfz_blT/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+        
+
+    
+</body>
+</html>
